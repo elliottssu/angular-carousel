@@ -1,0 +1,80 @@
+.img-small {
+	width: 250px;
+	height: 250px;
+}
+.img-small img{
+	width: inherit;	
+}
+.overlay-small{
+	background: rgba(0,0,0,.3);
+	position: absolute;
+    height: inherit;
+    width: inherit;
+    top: 0;
+}
+.overlay-small .enlarge-icon{
+	height: 100%;
+	background: url(../images/large.png) no-repeat center center;
+	background-size: 30%;
+	cursor:pointer;
+}
+
+
+.overlay-large{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,.3);
+	z-index: 1000;
+}
+.modal-cancel{
+	position: absolute;
+	top: -8px;
+	right: 7px;
+	cursor: pointer;
+	font-size: 40px!important;
+	color: rgba(0,0,0,.4)
+}
+.overlay-large .img-large{
+	position: absolute;
+	width: 720px;
+	min-height: 537px;
+	margin-left: -360px;
+	margin-top: -268px;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.overlay-large .img-large .img-wrapper{
+	height: 452px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.overlay-large .img-large .img-carouse{
+	width: inherit;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+.overlay-large .img-large .img-forward,.overlay-large .img-large .img-backward{
+	position: absolute;
+	top: 43%;
+	width: 6%;
+	cursor:pointer
+}
+.overlay-large .img-large .img-forward{
+	left: 5%;
+}
+.overlay-large .img-large .img-backward{
+	right: 5%;
+}
+.overlay-large .img-large .img-num{
+	font-size: 16px;
+	position: absolute;
+	left: 48%;
+	bottom: 9px;
+}
