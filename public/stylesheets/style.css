@@ -78,3 +78,12 @@
 	left: 48%;
 	bottom: 9px;
 }
+
+
+
+
+.overlay-large .img-large .img-wrapper-main{
+	height: 452px;
+    overflow: hidden;
+}
+

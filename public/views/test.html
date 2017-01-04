@@ -1,6 +1,3 @@
-<!-- <div style="background: url(&quot;{{img}}&quot;);" ng-repeat="img in imgs"></div> -->
-
-
 <div class="img-small">
   <img src="{{imgs[0]}}" ng-mouseenter="showIcon=true" ng-mouseleave="showIcon=false">
   <div class="overlay-small" ng-show="showIcon" ng-click="imgLarge=!imgLarge" ng-mouseenter="showIcon=true" ng-mouseleave="showIcon=false">
@@ -16,6 +13,16 @@
 			<img src="../images/left.png" class="img-forward"  ng-click="selImg('-')">
 			<img src="../images/right.png" class="img-backward"  ng-click="selImg('+')">
 			<div class="img-num">{{imgIndex+1+'/'+(imgs.length+1)}}</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="overlay-large" ng-show="imgLargeSeconde">
+	<div class="img-large">
+		<div class="img-wrapper-main">
+			<div class="img-carouse" style="background-image: url(&quot;{{imgs2[imgNum]}}&quot;);"></div>
+			<span class="modal-cancel" ng-click="imgLargeSeconde=!imgLargeSeconde">×</span>
 		</div>
 	</div>
 </div>
