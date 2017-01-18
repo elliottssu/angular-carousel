@@ -23,18 +23,4 @@ angular.module('ctrlModule', [])
 				}
 			}
 		}
-
-		$scope.imgs2 = [
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-8-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-4-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-9-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-5-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-6-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-1-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-2-orignal.jpg",
-			"https://contestimg.wish.com/api/webimage/57de943094dbe218ec670798-7-orignal.jpg"
-		];
-		$scope.imgNum = 0;
-
-
 	})
